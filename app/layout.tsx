@@ -21,31 +21,31 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     metadataBase: baseUrl,
-    title: "Donapet | Donaciones para comida y articulos de mascotas",
+    title: "Adoptar | Inicio",
     description:
-      "Compra racion, higiene, abrigo y juguetes para refugios verificados de mascotas.",
+      "Un espacio de Tu Ración para conectar adopciones, refugios y donaciones concretas.",
     icons: {
       icon: "/favicon.svg",
       shortcut: "/favicon.svg",
     },
     openGraph: {
-      title: "Donapet | Donaciones para mascotas",
+      title: "Adoptar | Inicio",
       description:
-        "Una tienda solidaria donde refugios publican necesidades y donantes compran articulos reales.",
+        "Conocé el circuito de adopciones y ayudá a refugios comprando alimento, higiene y abrigo.",
       images: [
         {
           url: "/og.png",
           width: 1680,
           height: 945,
-          alt: "Perro, gato y articulos donados para refugios de mascotas",
+          alt: "Perro, gato y artículos donados para refugios de mascotas",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Donapet | Donaciones para mascotas",
+      title: "Adoptar | Inicio",
       description:
-        "Ayuda a refugios comprando alimento y articulos que llegan directo a quienes los necesitan.",
+        "Conocé mascotas en adopción y ayudá a refugios con artículos reales.",
       images: ["/og.png"],
     },
   };
